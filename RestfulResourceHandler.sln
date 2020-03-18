@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetDimension.NanUI.RestfulResourceHandler.Core", "NetDimension.NanUI.RestfulResourceHandler\core\NetDimension.NanUI.RestfulResourceHandler.Core\NetDimension.NanUI.RestfulResourceHandler.Core.csproj", "{F5551771-3429-4EB6-AA22-F277132167D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDimension.NanUI.RestfulResourceHandler", "NetDimension.NanUI.RestfulResourceHandler\netfx\NetDimension.NanUI.RestfulResourceHandler\NetDimension.NanUI.RestfulResourceHandler.csproj", "{24FB969F-49B3-4F3D-896C-0F38B532F2F8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RestfulServiceResourceHandler.SharedProject", "NetDimension.NanUI.RestfulResourceHandler\shared\RestfulServiceResourceHandler.SharedProject\RestfulServiceResourceHandler.SharedProject.shproj", "{D676E202-F9E0-4A98-B6E1-A1E4FE294B20}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		NetDimension.NanUI.RestfulResourceHandler\shared\RestfulServiceResourceHandler.SharedProject\RestfulServiceResourceHandler.SharedProject.projitems*{24fb969f-49b3-4f3d-896c-0f38b532f2f8}*SharedItemsImports = 4
+		NetDimension.NanUI.RestfulResourceHandler\shared\RestfulServiceResourceHandler.SharedProject\RestfulServiceResourceHandler.SharedProject.projitems*{d676e202-f9e0-4a98-b6e1-a1e4fe294b20}*SharedItemsImports = 13
+		NetDimension.NanUI.RestfulResourceHandler\shared\RestfulServiceResourceHandler.SharedProject\RestfulServiceResourceHandler.SharedProject.projitems*{f5551771-3429-4eb6-aa22-f277132167d4}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5551771-3429-4EB6-AA22-F277132167D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5551771-3429-4EB6-AA22-F277132167D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5551771-3429-4EB6-AA22-F277132167D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5551771-3429-4EB6-AA22-F277132167D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FB969F-49B3-4F3D-896C-0F38B532F2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FB969F-49B3-4F3D-896C-0F38B532F2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FB969F-49B3-4F3D-896C-0F38B532F2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FB969F-49B3-4F3D-896C-0F38B532F2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5133D955-3101-4BF0-BCB1-302F63E393DA}
+	EndGlobalSection
+EndGlobal
